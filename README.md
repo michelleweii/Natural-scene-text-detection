@@ -15,9 +15,27 @@ coming soon ~
 
 
 ## 3 Post-processing
+<img src="https://github.com/michelleweii/QPNet/blob/master/images/exp02-1.eps" width="400" alt="">
+
 
 ## 4 Experiments
 
 ###  4.1 Experiments on InftyCDB-2 and Harvard
 
+Table
+
+methods| CTPN |	QPNet(ours)	
+--|--|--
+Precision |	84.3 | 93.9				
+Recall |	76.5 | 91.8			
+F1 |80.2 | 92.9
+
 ### 4.2 Experiments on ICDAR2013 and SVT
+
+Table 
+
+methods| CTPN |	Jaderberg et al.	| FCRN	| FCN	| SegLink | TextBoxes++ MS | Tang et al. | PixelLink MS| QPNet(ours) 
+--|--|--|--|--|--|--|--|--|--
+Precision|					
+Recall|					
+F1 |					
