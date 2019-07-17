@@ -13,6 +13,7 @@ coming soon ~
 
 ### 2.2 Loss function
 
+We use focal loss to solve the sample imbalance problem.
 
 ## 3 Post-processing
 <img src="https://github.com/michelleweii/QPNet/blob/master/images/exp02-1.eps" width="400" alt="">
