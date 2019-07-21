@@ -37,6 +37,6 @@ Table
 
 methods| CTPN |	Jaderberg et al.	| FCRN	| FCN	| SegLink | TextBoxes++ MS | Tang et al. | PixelLink MS| QPNet(ours) 
 --|--|--|--|--|--|--|--|--|--
-Precision|					
-Recall|					
-F1 |					
+Precision|93.0|88.5|92.0|88.0|87.7|91.0|91.9|88.6|91.7|				
+Recall|83.0|67.8|75.5|78.0|83.0|84.0|87.1|87.5|82.1|
+F1 |87.7|	76.8|83.0|83.0|85.3|88.0|89.5|88.1|86.6|
