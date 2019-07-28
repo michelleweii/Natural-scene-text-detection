@@ -3,6 +3,7 @@
 
 ## 1 Grid encoding （网格编码）
 
+<img src="https://github.com/michelleweii/QPNet/blob/master/QPNet_images/网格编码.PNG" width="1000" alt="grid encoding">
 
 ## 2 Quadrant perception network （象限感知网络）
 
@@ -16,14 +17,28 @@ coming soon ~
 We use focal loss to solve the sample imbalance problem.
 
 ## 3 Post-processing
-<img src="https://github.com/michelleweii/QPNet/blob/master/images/exp02-1.eps" width="400" alt="">
-
+<img src="https://github.com/michelleweii/QPNet/blob/master/QPNet_images/后处理.PNG" width="1000" alt="">
 
 ## 4 Experiments
 
 ###  4.1 Experiments on InftyCDB-2 and Harvard
+### 4.1.1 infty-2训练过程
 
-Table
+<img src="<img src="https://github.com/michelleweii/QPNet/blob/master/QPNet_images/infty-2训练过程.PNG" width="1000" alt="">
+                                                                                                                       
+### 4.1.2 infty-2 检测结果
+
+<img src="https://github.com/michelleweii/QPNet/blob/master/QPNet_images/intfy-2检测结果.PNG" width="1000" alt="">
+
+### 4.1.3 Harvard 检测结果
+
+<img src="https://github.com/michelleweii/QPNet/blob/master/QPNet_images/harvard检测结果.PNG" width="1000" alt="">
+
+### 4.1.4 The Results Compared with CTPN
+
+<img src="https://github.com/michelleweii/QPNet/blob/master/QPNet_images/与CTPN对比.PNG" width="1000" alt="">
+
+Table 1 
 
 methods| CTPN |	QPNet(ours)	
 --|--|--
@@ -32,11 +47,33 @@ Recall |	76.5 | 91.8
 F1 |80.2 | 92.9
 
 ### 4.2 Experiments on ICDAR2013 and SVT
+### 4.2.1 ICDAR2013和SVT的检测结果
+<img src="https://github.com/michelleweii/QPNet/blob/master/QPNet_images/ICDAR2013_svt结果图.PNG" width="1000" alt="">
 
-Table 
+### 4.2.2 More ICDAR2013 
+
+<img src="https://github.com/michelleweii/QPNet/blob/master/QPNet_images/icdar13更多预测结果/img_32.jpg" width="500" alt="">
+<img src="https://github.com/michelleweii/QPNet/blob/master/QPNet_images/icdar13更多预测结果/img_68.jpg" width="500" alt="">
+<img src="https://github.com/michelleweii/QPNet/blob/master/QPNet_images/icdar13更多预测结果/img_99.jpg" width="500" alt="">
+
+Table 2
 
 methods| CTPN |	Jaderberg et al.	| FCRN	| FCN	| SegLink | TextBoxes++ MS | Tang et al. | PixelLink MS| QPNet(ours) 
 --|--|--|--|--|--|--|--|--|--
 Precision|93.0|88.5|92.0|88.0|87.7|91.0|91.9|88.6|91.7|				
 Recall|83.0|67.8|75.5|78.0|83.0|84.0|87.1|87.5|82.1|
 F1 |87.7|	76.8|83.0|83.0|85.3|88.0|89.5|88.1|86.6|
+
+### 4.3 Other
+
+#### 4.3.1 自然场景数学公式检测
+The result of CTPN (green) vs. The result of QPNet(blue)
+<img src="https://github.com/michelleweii/QPNet/blob/master/QPNet_images/自然场景数学公式检测.png" width="1000" alt="">
+The result of QPNet
+
+<img src="https://github.com/michelleweii/QPNet/blob/master/QPNet_images/math-1.png" width="500" alt="">
+<img src="https://github.com/michelleweii/QPNet/blob/master/QPNet_images/math-pred.png" width="500" alt="">
+
+### 4.3.2 不同尺度运行时间比较
+<img src="https://github.com/michelleweii/QPNet/blob/master/QPNet_images/运行时间.PNG" width="1000" alt="">
+
