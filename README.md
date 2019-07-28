@@ -69,10 +69,6 @@ F1 |87.7|	76.8|83.0|83.0|85.3|88.0|89.5|88.1|86.6|
 #### 4.3.1 自然场景数学公式检测
 The result of CTPN (green) vs. The result of QPNet(blue)
 <img src="https://github.com/michelleweii/QPNet/blob/master/QPNet_images/自然场景数学公式检测.png" width="1000" alt="">
-The result of QPNet
-
-<img src="https://github.com/michelleweii/QPNet/blob/master/QPNet_images/math-1.png" width="500" alt="">
-<img src="https://github.com/michelleweii/QPNet/blob/master/QPNet_images/math-pred.png" width="500" alt="">
 
 ### 4.3.2 不同尺度运行时间比较
 <img src="https://github.com/michelleweii/QPNet/blob/master/QPNet_images/运行时间.PNG" width="1000" alt="">
