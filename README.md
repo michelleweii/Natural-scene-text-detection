@@ -74,3 +74,5 @@ The result of CTPN (green) vs. The result of QPNet(blue)
 ### 4.3.2 不同尺度运行时间比较
 <img src="https://github.com/michelleweii/QPNet/blob/master/QPNet_images/运行时间.PNG" width="1000" alt="">
 
+最后 做这项工作前的一点小准备ヾ(◍°∇°◍)ﾉﾞ
+[【计算机视觉】文本检测综述（含2019年）](https://blog.csdn.net/weixin_31866177/article/details/97576771)
