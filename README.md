@@ -1,4 +1,5 @@
 # Text Detection
+## Abstract
   a new model based on instance segmentation is designed for text detection in a document and natural image. Consisting of convolutional and recurrent neural networks, it focuses on segmenting the close text instances and detecting long text to improve the practicability in real applications. The input images are encoded by their grid locations related to the four quadrants of an object and the background. The bidirectional long short term memory (BiLSTM) networks are used to combine the left-right and up-down contexts. Only one output classification branch is designed to predict the accurate location of each pixel, namely quadrant perception. Without bounding box regression, simple post-processing is employed to find text locations naturally. The experiments are implemented on several benchmark datasets, and the results show the proposed method has excellent performances and is competitive in the existing models.
 
 ## 1 Grid encoding （网格编码）
@@ -38,7 +39,7 @@ We use focal loss to solve the sample imbalance problem.
 
 <img src="https://github.com/michelleweii/QPNet/blob/master/QPNet_images/与CTPN对比.PNG" width="1000" alt="">
 
-Table 1 
+Table 1 Comparison of experimental results on Infty-2(%).
 
 methods| CTPN |	QPNet(ours)	
 --|--|--
@@ -56,7 +57,7 @@ F1 |80.2 | 92.9
 <img src="https://github.com/michelleweii/QPNet/blob/master/QPNet_images/icdar13更多预测结果/img_68.jpg" width="500" alt="">
 <img src="https://github.com/michelleweii/QPNet/blob/master/QPNet_images/icdar13更多预测结果/img_99.jpg" width="500" alt="">
 
-Table 2
+Table 2 Comparison of experimental results on the ICDAR2013 dataset(%).
 
 methods| CTPN |	Jaderberg et al.	| FCRN	| FCN	| SegLink | TextBoxes++ MS | Tang et al. | PixelLink MS| QPNet(ours) 
 --|--|--|--|--|--|--|--|--|--
